@@ -10,9 +10,9 @@ use com\realexpayments\remote\sdk\SafeArrayAccess;
 use com\realexpayments\remote\sdk\utils\NormaliserHelper;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
-use Symfony\Component\Serializer\Normalizer\SerializerAwareNormalizer;
+use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 
-class DccInfoNormalizer extends SerializerAwareNormalizer implements NormalizerInterface, DenormalizerInterface {
+class DccInfoNormalizer extends AbstractNormalizer implements NormalizerInterface, DenormalizerInterface {
 
 	/**
 	 * Normalizes an object into a set of arrays/scalars.

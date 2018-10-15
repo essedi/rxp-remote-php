@@ -13,9 +13,9 @@ use com\realexpayments\remote\sdk\SafeArrayAccess;
 use com\realexpayments\remote\sdk\utils\NormaliserHelper;
 use Symfony\Component\Serializer\Normalizer\DenormalizerInterface;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
-use Symfony\Component\Serializer\Normalizer\SerializerAwareNormalizer;
+use Symfony\Component\Serializer\Normalizer\AbstractNormalizer;
 
-class PayerNormalizer extends SerializerAwareNormalizer implements NormalizerInterface, DenormalizerInterface {
+class PayerNormalizer extends AbstractNormalizer implements NormalizerInterface, DenormalizerInterface {
 	private $format;
 	private $context;
 

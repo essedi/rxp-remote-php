@@ -1,5 +1,5 @@
 {
-  "name": "Essedi/RxpRemotePhp",
+  "name": "essedi/rxp-remote-php",
   "type": "symfony-bundle",
   "description": "SDK to send requests and parse responses from Realex Payments using Remote",
   "keywords": [
