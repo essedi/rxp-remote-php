@@ -8,3 +8,4 @@ phpunit.phar
 composer.lock
 adhoc/
 .project
+/nbproject/private/

@@ -1,5 +1,5 @@
 {
-  "name": "realexpayments/rxp-remote-php",
+  "name": "Essedi/RxpRemotePhp",
   "type": "library",
   "description": "SDK to send requests and parse responses from Realex Payments using Remote",
   "keywords": [
@@ -20,11 +20,11 @@
   ],
   "license": "MIT",
   "require": {
-    "php": ">=5.3.9",
+    "php": "^7.1.3",
     "hafriedlander/phockito": "1.0.*",
     "apache/log4php": "2.3.*",
-    "symfony/serializer": "2.7.*",
-    "symfony/property-access": "2.7.*"
+    "symfony/serializer": "^4.1",
+    "symfony/property-access": "^4.1"
   },
   "autoload": {
     "psr-4": {
